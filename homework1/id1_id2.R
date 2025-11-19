@@ -11,5 +11,5 @@ v0t <- 0
 g <- 1.62
 
 # Calculate free fall of a ball in seconds
-t2 <- y - y0 - v0t / (0.5 * g)
+t2 <- (y - y0 - v0t) / (0.5 * g)
 t_final <- sqrt(abs(t2))
